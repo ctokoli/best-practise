@@ -25,7 +25,7 @@
 
 # 📖 Todo List With Webpack Project <a name="about-project"></a>
 
- The goal of this project is to learn how to build website using webpack to bundle the project files. This is implemented by using the Webpack Cli. I also used Localstorage to store the todos lists in the browser.  
+ The goal of this project is to learn how to build website using webpack to bundle the project files. This is  implemented by using the Webpack Cli. I also used Localstorage to store the todos lists in the browser.  
 
 
 
