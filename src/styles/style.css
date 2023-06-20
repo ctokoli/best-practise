@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  background-color: rgb(248, 248, 248);
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+}
+
+*:focus {
+  outline: none;
+}
+
+.content {
+  width: 500px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px 0 #888;
+}
+
+.list ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1.4px solid #ddd;
+  padding: 2px 20px 2px 15px;
+}
+
+.list ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 10px 20px 0 10px;
+  border-bottom: 1.4px solid #ddd;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 2px;
+  border-bottom: 1.4px solid #ddd;
+}
+
+.input input {
+  width: 335px;
+  height: 45px;
+  border: none;
+  padding-left: 10px;
+  color: #888;
+  font-family: 'Roboto', serif;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.input input::placeholder {
+  font-style: italic;
+  font-weight: 200;
+}
+
+input:focus {
+  outline: none;
+}
+
+button.clear {
+  width: 500px;
+  height: 30px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: center;
+  border: none;
+  font-family: 'Roboto', serif;
+  font-size: larger;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+input.checkbox {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 2px;
+  border: 33px solid black;
+}
+
+button.add {
+  background: none;
+  border: none;
+  height: 35px;
+  width: 56px;
+  cursor: pointer;
+}
+
+i.fa-solid.fa-arrow-turn-down {
+  transform: rotate(90deg);
+}
+
+i.fa-solid {
+  color: rgb(211, 211, 211);
+}
+
+.fas {
+  color: rgb(211, 211, 211);
+}
+
+.item-list.show {
+  background-color: lightgoldenrodyellow;
+}
+
+/* .delete {
+  display: none;
+} */
+
+.delete.show {
+  display: block;
+  cursor: pointer;
+}
+
+button.delete {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left: 33px;
+  cursor: pointer;
+  width: 80px;
+}
+
+i.fas.fa-ellipsis-v.hide {
+  display: none;
+}
+
+.fa-regular,
+.far {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.list-cont {
+  display: flex;
+  align-items: center;
+}
+
+.list-cont p {
+  padding: 0 18px;
+  width: 300px;
+}
+
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+}
